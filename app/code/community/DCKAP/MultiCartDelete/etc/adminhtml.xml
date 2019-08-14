@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+	<config>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<multicartdelete translate="title" module="multicartdelete">
+											<title>Multiple Cart Item Delete Section</title>
+											<sort_order>10</sort_order>
+										</multicartdelete>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</config>

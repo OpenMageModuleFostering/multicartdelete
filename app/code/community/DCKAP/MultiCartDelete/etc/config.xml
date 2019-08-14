@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <DCKAP_MultiCartDelete>
+      <version>1.0.0</version>
+    </DCKAP_MultiCartDelete>
+  </modules>
+  <frontend>
+  	<routers>
+	    <checkout>
+	        <args>
+	            <modules>
+					<dckap_multicartdelete before="Mage_Checkout">DCKAP_MultiCartDelete</dckap_multicartdelete>
+				</modules>
+	        </args>
+	    </checkout>
+	</routers>
+	<layout>
+		<updates>
+			<multicartdelete>
+				<file>multicartdelete.xml</file>
+			</multicartdelete>
+		</updates>
+	</layout>
+  </frontend>
+  <global>
+  	<helpers>
+  		<multicartdelete>
+	        <class>DCKAP_MultiCartDelete_Helper</class>
+        </multicartdelete>
+  	</helpers>
+  </global>
+</config> 

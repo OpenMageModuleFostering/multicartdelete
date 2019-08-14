@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>multicartdelete</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allows user to delete multiple items from the cart</summary>
+    <description>Multiple Cart Item Delete module is used to select &amp; delete multiple items in shopping cart.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>DCKAP</name><user>DCKAP</user><email>extensions@dckap.com</email></author></authors>
+    <date>2016-06-21</date>
+    <time>09:30:34</time>
+    <contents><target name="magecommunity"><dir name="DCKAP"><dir name="MultiCartDelete"><dir name="Helper"><file name="Data.php" hash="d8b7f0376dbd915130c6ed602b9e247e"/></dir><dir name="controllers"><file name="CartController.php" hash="ca53352185842d78199416592cb3549d"/></dir><dir name="etc"><file name="adminhtml.xml" hash="2e249dcc54aa039ed62c1e20d5595a6a"/><file name="config.xml" hash="3f15a8c2df66643954d9cd9357b9208b"/><file name="system.xml" hash="84b1556d1de66e704b79115e51bd940a"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="multicartdelete"><dir name="cart"><dir name="item"><file name="default.phtml" hash="f3dc3740d10140f748d1b8c6fa36cd4f"/></dir></dir><file name="cart.phtml" hash="7fc9667994dffd1f02256a11af8c3d3c"/><dir name="downloadable"><dir name="cart"><dir name="item"><file name="default.phtml" hash="5428b6edb41756006ac3c1efe46ad08c"/></dir></dir></dir></dir></dir><dir name="layout"><file name="multicartdelete.xml" hash="55553717d93aa54b2bda45c3454fa59e"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="DCKAP_MultiCartDelete.xml" hash="c7580b65e80af078f91889ee6b64fd9b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.2</min><max>5.6.7</max></php></required></dependencies>
+</package>

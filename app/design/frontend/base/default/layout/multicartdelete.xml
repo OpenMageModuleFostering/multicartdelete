@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<checkout_cart_index>
+      <reference name="checkout.cart">
+      	 <action method="setCartTemplate"><value>multicartdelete/cart.phtml</value></action>
+         <action method="setEmptyTemplate"><value>checkout/cart/noItems.phtml</value></action>
+         <action method="chooseTemplate"/>
+         <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>multicartdelete/cart/item/default.phtml</template></action>
+         <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>multicartdelete/cart/item/default.phtml</template></action>
+         <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>multicartdelete/cart/item/default.phtml</template></action>
+         <action method="addItemRender"><type>bundle</type><block>bundle/checkout_cart_item_renderer</block><template>multicartdelete/cart/item/default.phtml</template></action>
+         <action method="addItemRender"><type>downloadable</type><block>downloadable/checkout_cart_item_renderer</block><template>multicartdelete/downloadable/cart/item/default.phtml</template></action>
+      </reference>
+    </checkout_cart_index>
+</layout>
