@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/multicartdelete",
+    "name": "OpenMageModuleFostering\/multicartdelete",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Allows user to delete multiple items from the cart",
     "authors": [
-    {
-        "name": "DCKAP",
-        "email": "extensions@dckap.com"
-    }
-],
+        {
+            "name": "DCKAP",
+            "email": "extensions@dckap.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
